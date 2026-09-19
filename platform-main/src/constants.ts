@@ -43,6 +43,8 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
 export const POOLS = [
   // Fake token:
   lp(FAKE_TOKEN_MINT),
+  // NXS:
+  lp('4sNfeQVic4PohXBhgkYFVxwmciAfxFCTfgdWE9Hbpump'),
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
